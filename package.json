@@ -12,27 +12,19 @@
     "build": "tsc",
     "build:watch": "tsc && (tsc -w --preserveWatchOutput & nodemon)",
     "dev": "npm run build:watch",
-    "start": "node ./dist/server.js",
-    "test": "jest",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+    "start": "node ./dist/server.js"
   },
   "dependencies": {
-    "@yarnpkg/core": "^2.2.2",
     "node-fetch": "^2.6.0",
     "probot": "^9.14.1",
     "tar": "^6.0.5"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.10",
-    "@types/nock": "^11.1.0",
     "@types/node": "^14.6.2",
     "@types/node-fetch": "^2.5.7",
     "@types/tar": "^4.0.3",
-    "jest": "^26.4.2",
-    "nock": "^13.0.4",
     "nodemon": "^2.0.0",
-    "smee-client": "^1.1.0",
-    "ts-jest": "^26.3.0",
+    "prettier": "^2.1.1",
     "typescript": "^4.0.2"
   },
   "engines": {
